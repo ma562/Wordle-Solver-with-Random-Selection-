@@ -89,7 +89,7 @@
 	text-align: center;
 }
 
-.information2 {
+.information {
 	font-family: 'Poppins', sans-serif;
 	position: relative;
 	text-align: justify;
@@ -111,7 +111,7 @@
 	position: relative;
 	left: 2%;
 	background: #c8b653;
-	width: 45%;
+	width: 48%;
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	color: #00274c;
@@ -121,25 +121,79 @@
 }
 
 .guess_hist2 {
-	left: 4%;
+	top: 30px;
+	left: 1%;
 	position: relative;
 	width: 15.1%;
 }
 
 .bits2 {
-	left: 2%;
+	top: 30px;
+	left: 0%;
 	position: relative;
 	width: 10.6%;
 }
 
 .pos2 {
-	right: 0%;
+	top: 30px;
+	right: 1%;
 	position: relative;
 	width: 10.7%;
 }
 
 .chance2 {
+	top: 30px;
 	right: 2%;
 	position: relative;
 	width: 10.6%;
+}
+
+.three_info {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-between;
+	top: 100px;
+	position: relative;	
+}
+
+.threes {
+	position: relative;
+	left: 2%;
+	background: #6ca965;
+	width: 50%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #00274c;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: justify;
+}
+
+@media (max-width: 1000px){
+	.information {
+		padding: 15px;
+	}
+
+	.twos, .guess_hist2, .bits2, .pos2, .chance2, .vid1, .information {
+		flex: 100%;
+		left: 0%;
+		right: 0%;
+		margin-bottom: 70px;
+	}
+
+	.top_info {
+		top: 80px;
+	}
+	.navbar .logo a{
+		color: #fff;
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.navbar .menu li a{
+		font-size: 12px;
+	}
+	.text {
+		font-size: 18px;
+	}
 }
